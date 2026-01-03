@@ -1,0 +1,24 @@
+{
+  "name": "ahorro-digital-tests",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas para Ahorro Digital",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "qa",
+    "automation"
+  ],
+  "author": "QA Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
