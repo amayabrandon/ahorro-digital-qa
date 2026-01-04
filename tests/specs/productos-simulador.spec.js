@@ -25,7 +25,7 @@ test.describe('Simulador de Ahorro (P1)', () => {
     // Verificar que los valores se muestran
     await expect(page.locator('#resultProducto')).toContainText('Tradicional');
     await expect(page.locator('#resultMontoInicial')).toContainText('100.000');
-    await expect(page.locator('#resultTasa')).toContainText('0.5 % EA');
+    await expect(page.locator('#resultTasa')).toContainText('0.5% EA');
     await expect(page.locator('#resultPlazo')).toContainText('30 días');
     await expect(page.locator('#resultGanancia')).toBeVisible();
     await expect(page.locator('#resultMontoFinal')).toBeVisible();
@@ -86,7 +86,7 @@ test.describe('Simulador de Ahorro (P1)', () => {
     expect(body.error).toContain('no encontrado');
   });
 });
-cd 
+
 test.describe('Productos (P2)', () => {
   
   test('TC-007: Listar productos de ahorro', async ({ page }) => {
