@@ -329,18 +329,8 @@ Este es un proyecto de prueba técnica. Para sugerencias o mejoras:
 4. Push a la rama (`git push origin feature/mejora`)
 5. Abre un Pull Request
 
----
 
-## 📄 Licencia
 
-Este proyecto es de código abierto para fines educativos y de demostración.
-
----
-
-## 👤 Autor
-
-**Cazadora de Bugs Financieros**  
-QA Automation Engineer
 
 ---
 
@@ -357,8 +347,3 @@ Gracias por revisar este proyecto. Fue desarrollado como parte de una prueba té
 
 ---
 
-## 📞 Contacto
-
-Para consultas sobre este proyecto, crear un issue en el repositorio de GitHub.
-
-**¡Feliz Testing! 🚀**
