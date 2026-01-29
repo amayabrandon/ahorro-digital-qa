@@ -57,7 +57,7 @@ test.describe('Pruebas de API (P2)', () => {
     expect(body.error).toContain('inválidas');
   });
 
-  test('API: Usuario duplicado retorna 409', async ({ request }) => {
+  test('TC-011: Usuario duplicado retorna 409', async ({ request }) => {
     const timestamp = Date.now();
     const email = `duplicate${timestamp}@test.com`;
     
